@@ -9,7 +9,7 @@ class Animal {
 	}
 
 	makeSound() {
-		console.log(`The ${this.species} make a sound`);
+		console.log(`The ${this.species} makes a sound`);
 	}
 }
 
@@ -32,6 +32,7 @@ class Cat extends Animal {
 		console.log(`purr`);
 	}
 }
+
 
 // Do not change the code below this line
 window.Animal = Animal;
